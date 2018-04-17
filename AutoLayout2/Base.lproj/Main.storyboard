@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina3_5" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -16,21 +16,21 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XrS-qg-aL5" userLabel="FrameView">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7bH-Vi-0OX" userLabel="PurpleBox">
-                                        <rect key="frame" x="105.5" y="410" width="194.5" height="50"/>
+                                        <rect key="frame" x="142" y="666" width="252" height="50"/>
                                         <color key="backgroundColor" red="0.80724914704869999" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="XBA-1y-MMX"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Quy-lx-ZGF" userLabel="RedBox">
-                                        <rect key="frame" x="156" y="20" width="144" height="46"/>
+                                        <rect key="frame" x="250" y="20" width="144" height="46"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="apx-1F-PBj" userLabel="RightOrange">
                                                 <rect key="frame" x="86" y="8" width="50" height="30"/>
@@ -60,7 +60,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MNr-lN-WHX" userLabel="BlueOne">
-                                        <rect key="frame" x="135" y="215" width="50" height="50"/>
+                                        <rect key="frame" x="182" y="343" width="50" height="50"/>
                                         <color key="backgroundColor" red="0.0" green="0.25" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="50" id="7Av-sc-C2R"/>
@@ -68,7 +68,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Al0-hg-hT8" userLabel="BlueTwo">
-                                        <rect key="frame" x="135" y="82.5" width="50" height="50"/>
+                                        <rect key="frame" x="182" y="146.66666666666666" width="50" height="50"/>
                                         <color key="backgroundColor" red="0.0" green="0.25299572944641113" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="50" id="Lot-sD-uSZ"/>
@@ -76,28 +76,40 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nXx-as-u1M" userLabel="BlueThree">
-                                        <rect key="frame" x="135" y="347.5" width="50" height="50"/>
+                                        <rect key="frame" x="182" y="539.66666666666663" width="50" height="50"/>
                                         <color key="backgroundColor" red="0.0" green="0.25299572944641113" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="50" id="EDV-sG-wKg"/>
                                             <constraint firstAttribute="height" constant="50" id="r1s-ZB-8XI"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GzH-Sw-Qfq" userLabel="InvisibleOne">
-                                        <rect key="frame" x="80" y="0.0" width="240" height="82.5"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GzH-Sw-Qfq" userLabel="InvisibleOne">
+                                        <rect key="frame" x="205.66666666666666" y="0.0" width="3" height="146.66666666666666"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="3" id="nhb-pa-ylu"/>
+                                        </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j7k-rJ-umd" userLabel="InvisibleTwo">
-                                        <rect key="frame" x="87" y="132.5" width="240" height="82.5"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j7k-rJ-umd" userLabel="InvisibleTwo">
+                                        <rect key="frame" x="205.66666666666666" y="196.66666666666663" width="3" height="146.33333333333337"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="3" id="czR-er-Z0w"/>
+                                        </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DFG-0y-qfg" userLabel="InvisibleThree">
-                                        <rect key="frame" x="87" y="265" width="240" height="82.5"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DFG-0y-qfg" userLabel="InvisibleThree">
+                                        <rect key="frame" x="205.66666666666666" y="393" width="3" height="146.66666666666663"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="3" id="aaz-lv-oXz"/>
+                                        </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f3u-kA-eIZ" userLabel="InvisibleFour">
-                                        <rect key="frame" x="80" y="397.5" width="240" height="82.5"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f3u-kA-eIZ" userLabel="InvisibleFour">
+                                        <rect key="frame" x="205.66666666666666" y="589.66666666666663" width="3" height="146.33333333333337"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="3" id="m55-Dw-b3g"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="1" blue="0.12614320048045835" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
